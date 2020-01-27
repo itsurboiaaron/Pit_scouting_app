@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pit scouting app</string>
+
+    <string name="Button">Light Mode</string>
+    <string name="ButtonII">Dark Mode</string>
+
+    <string name="plainView_one">enter team name</string>
+    <string name="plainView_two">enter team number</string>
+    <string name="plainView_three">enter drive base</string>
+
+    <string name="submit">submit</string>
+    <string name="delete">delete</string>
+
+</resources>

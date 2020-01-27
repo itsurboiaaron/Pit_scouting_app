@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dayNight_textColor2">#616161</color>
+    <color name="colorAccent">#00AD9D</color>
+    <color name="SwitchColor">#911DEE</color>
+    <color name="BackgroundNight">#292929</color>
+    <color name="Orange">#FF9800</color>
+    <color name="OrangeDark">#A75E00</color>
+    <color name="dayNight_textColor">#FFFFFF</color>
+
+
+</resources>
