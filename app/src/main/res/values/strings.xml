@@ -7,8 +7,24 @@
     <string name="plainView_one">enter team name</string>
     <string name="plainView_two">enter team number</string>
     <string name="plainView_three">enter drive base</string>
+    <string name="plainView_four">enter type of wheels</string>
+    <string name="plainView_five">enter size of wheels</string>
+    <string name="plainView_six">enter places on the field that they can access</string>
+    <string name="plainView_seven">can climb</string>
+    <string name="plainView_eight">can they climb reliably </string>
+    <string name="plainView_nine">can buddy climb</string>
+    <string name="plainView_ten">where they can climb</string>
+    <string name="plainView_eleven">reliably of shooter</string>
+    <string name="plainView_twelve">where they can shot from</string>
+    <string name="plainView_thirteen">where they can climb</string>
+    <string name="plainView_fourteen">how many balls they can fit</string>
+    <string name="plainView_fifteen">cycles they can go through in a match</string>
+    <string name="plainView_sisxteen">motors</string>
 
     <string name="submit">submit</string>
     <string name="delete">delete</string>
+    <string name="take_pic">take pic</string>
+    <string name="save_photo">save photo</string>
+
 
 </resources>
