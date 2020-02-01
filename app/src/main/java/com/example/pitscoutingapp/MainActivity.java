@@ -4,13 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
 import static java.sql.DriverManager.println;
+
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 import java.io.File;
 import java.io.FileWriter;
@@ -21,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     Button save;
     Button delete;
     Button cameraBeta;
+    Spinner spinner;
     public String constants;
 
     int count = 0;
@@ -58,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 saving(enterText, enterText2, enterText3, enterText4, enterText5, enterText6, enterText7, enterText8, enterText9, enterText10, enterText11, enterText12, enterText13, enterText14, enterText15, enterText16);
+
             }
         });
         cameraBeta.setOnClickListener(new View.OnClickListener() {
@@ -82,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
                 }
                 Log.d("delete update", "deleted " + dir);
                 Toast.makeText(MainActivity.this, "deleted the files", Toast.LENGTH_LONG).show();
+                // totally not a rickroll
+                Intent browserIntent = new Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
+                startActivity(browserIntent);
             }
         });
     }

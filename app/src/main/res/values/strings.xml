@@ -26,5 +26,11 @@
     <string name="take_pic">take pic</string>
     <string name="save_photo">save photo</string>
 
+    <string-array name="robots">
+        <item>Select Robot</item>
+        <item>Robot 1</item>
+        <item>Robot 2</item>
+        <item>Robot 3</item>
+    </string-array>
 
 </resources>
